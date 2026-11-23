@@ -127,3 +127,18 @@ footer nav a{text-decoration:none;font-size:13px;color:#46544f}
   .bar a.main{background:var(--accent);color:#fff}
   .bar a+a{border-left:1px solid var(--line)}
 }
+
+/* 個別調整（HTMLに直接書いていた指定をクラスにしたもの） */
+.sec-t24{padding-top:24px}.sec-t32{padding-top:32px}.sec-t40{padding-top:40px}
+.rows.mt0{margin-top:0}.rows.mt32{margin-top:32px}.rows.mt36{margin-top:36px}
+.rows.col1 li{grid-template-columns:1fr}
+.rows.kv li{grid-template-columns:100px 1fr}
+.rows.kv h3{font-size:15px}
+.rows.kv200 li{grid-template-columns:200px 1fr}
+.price.mt0,.info.mt0{margin-top:0}
+.split.mt48{margin-top:48px}.split.mt72{margin-top:72px}
+.sub-h3{font-size:20px}
+.lead.mt10{margin-top:10px}
+.name-role{display:block;font-size:14px;font-weight:400;color:var(--mute);margin-top:4px}
+.note-link{margin-left:8px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
