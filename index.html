@@ -23,6 +23,7 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="motion.css">
 <link rel="preload" as="image" href="images/hero.webp">
+<link rel="stylesheet" href="extra.css">
 </head>
 <body>
 <header>
@@ -66,6 +67,17 @@
         <li><h3>頭痛</h3><p>肩や首のこりとともに、頭が重くなる。</p><a href="symptoms.html#head">くわしく見る</a></li>
         <li><h3>姿勢・猫背</h3><p>写真に写る自分の姿勢が気になる。</p><a href="symptoms.html#posture">くわしく見る</a></li>
       </ul>
+    </div>
+  </section>
+
+  <section class="x-sec x-demo x-hinata" data-demo="4000,4000,4000,4000">
+    <div class="wrap">
+      <p class="label">気になる場所</p>
+      <h2>気になるのは、<br>どのあたりですか。</h2>
+      <div class="x-grid">
+        <div class="x-stage"><svg viewBox="0 0 220 360" aria-hidden="true"><g class="body"><circle cx="110" cy="48" r="32"/><path d="M96 84h28v14c26 4 44 14 48 36l16 88c2 12-14 16-18 4l-20-76-4 62 6 130c1 16-24 17-26 2l-12-104h-8L94 344c-2 15-27 14-26-2l6-130-4-62-20 76c-4 12-20 8-18-4l16-88c4-22 22-32 48-36z"/></g><path class="spine" d="M110 90C122 120 98 160 110 200" pathLength="1"/><g class="pt p0"><circle cx="76" cy="112" r="13"/><circle cx="144" cy="112" r="13"/></g><g class="pt p1"><circle cx="110" cy="188" r="17"/></g><g class="pt p2"><circle cx="110" cy="38" r="15"/></g><g class="pt p3"><circle cx="110" cy="130" r="10"/></g></svg></div>
+        <div><div class="x-tabs" role="group" aria-label="表示を選ぶ"><button type="button" data-go="0" aria-pressed="false">肩・首</button><button type="button" data-go="1" aria-pressed="false">腰</button><button type="button" data-go="2" aria-pressed="false">頭</button><button type="button" data-go="3" aria-pressed="false">姿勢</button></div><div class="x-panels"><div data-panel="0"><b>肩こり・首のこり</b><p>デスクワークで、夕方には肩が重く、首が回らない。<br><a href="symptoms.html#shoulder">くわしく見る</a></p></div><div data-panel="1"><b>腰の痛み</b><p>立ち上がるとき、朝起きたときに腰が痛む。<br><a href="symptoms.html#back">くわしく見る</a></p></div><div data-panel="2"><b>頭痛</b><p>肩や首のこりとともに、頭が重くなる。<br><a href="symptoms.html#head">くわしく見る</a></p></div><div data-panel="3"><b>姿勢・猫背</b><p>写真に写る自分の姿勢が気になる。<br><a href="symptoms.html#posture">くわしく見る</a></p></div></div><button type="button" class="x-play" data-play>動きを止める</button><p class="x-note">※図はイメージです。強い痛みやしびれがあるときは、先に医療機関へご相談ください。</p></div>
+      </div>
     </div>
   </section>
 
@@ -146,5 +158,6 @@
 <nav class="bar" aria-label="ご予約"><a class="main" href="#" data-link="line">LINEで予約</a><a href="tel:0980000000">電話</a></nav>
 <script src="links.js" defer></script>
 <script src="motion.js" defer></script>
+<script src="extra.js" defer></script>
 </body>
 </html>
